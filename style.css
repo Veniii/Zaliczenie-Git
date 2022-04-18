@@ -7,3 +7,44 @@ body {
     position: relative;
     
 }
+
+nav {
+    display: flex;
+    padding: 12px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(4,9,30,0.5);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: white;   
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li::after {
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: burlywood;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+}
