@@ -1,6 +1,6 @@
 .container {
     display: grid;   
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(1,3fr);
     grid-template-rows: minmax(100px,auto);
     column-gap: 5vh;
     row-gap: 5vh;
@@ -13,11 +13,9 @@
     max-width: 100%;
     max-height: 100%;
     max-block-size: 100%;
-  
-}
-
-.who {
-    margin: auto;
+    display: inline-block;
+    margin: 15px;
+ 
 }
 
 .actors {
@@ -27,5 +25,7 @@ background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("http
 background-position: center;
 background-size: cover;
 position: fixed;
+color: white;
+text-align: center;
 }
 
