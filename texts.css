@@ -2,7 +2,8 @@
     color: white;
     font-size: 20vw;
     text-align-last: center;
-    
+    margin-top: 26vh;
+    margin-bottom: 26vh;
 }
 .nav-links{
     animation: navigation 500ms 1;
