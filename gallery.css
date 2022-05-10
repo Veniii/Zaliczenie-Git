@@ -1,3 +1,9 @@
+body{
+    background-image:url(harry-potter-g0ad25de4c_1920.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
 .container{
     box-sizing: border-box;
 }
