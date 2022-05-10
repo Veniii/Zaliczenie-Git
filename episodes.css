@@ -1,3 +1,10 @@
 body{
     background-image:url(whiteowl.jpg);
 }
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5vw;
+    color: white;
+    margin-top: 4vw;
+    background-color: rgba(41, 41, 41, 0.377);
+}
