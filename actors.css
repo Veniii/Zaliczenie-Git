@@ -25,6 +25,7 @@ background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url("http
 background-position: center;
 background-size: cover;
 position: relative;
+background-attachment: fixed;
 color: white;
 text-align: center;
 }
