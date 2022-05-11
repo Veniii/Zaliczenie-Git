@@ -55,4 +55,23 @@ nav {
     width: 100%;
 }
 
+.hero-btn {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.hero-btn:hover {
+    border: 1px solid white;
+    background: burlywood;
+    transition: 1s;
+}
+
 
